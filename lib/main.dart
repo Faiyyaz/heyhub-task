@@ -101,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   controller: _accuracyController,
                   keyboardType: TextInputType.number,
                   inputFormatters: [
-                    WhitelistingTextInputFormatter(RegExp("[0-9.-]")),
+                    WhitelistingTextInputFormatter(RegExp("[0-9.]")),
                   ],
                   decoration: InputDecoration(
                     border: OutlineInputBorder(),
