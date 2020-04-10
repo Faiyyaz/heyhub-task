@@ -117,6 +117,8 @@ class _MyHomePageState extends State<MyHomePage> {
         width: MediaQuery.of(context).size.width * 0.9,
         child: RaisedButton(
           onPressed: () async {
+            ///Clearing focus from textField and validating text fields for empty value
+            ///For now assuming accuracy is optional
             FocusScope.of(context).requestFocus(FocusNode());
             bool isFieldsValidated = true;
             double latitude;
