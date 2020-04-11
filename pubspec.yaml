@@ -10,7 +10,6 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
   google_map_polyutil: ^1.0.0
-  flutter_spinkit: ^4.1.2
   flushbar: 1.9.0
 
 dev_dependencies:
